@@ -1,51 +1,46 @@
+# Data Mining Projects
 
-# Machine Learning Projects
+This repository contains a collection of hands-on data mining projects using various supervised and unsupervised learning techniques. The projects are implemented in Jupyter Notebooks and demonstrate practical applications of machine learning models on real-world datasets.
 
-This repository contains multiple machine learning projects exploring supervised and unsupervised learning techniques using real-world datasets. Each project includes Jupyter Notebooks with code, results, and visualizations.
+## 📁 Repository Structure
 
-## 📁 Project Structure
+### 1. `BNN/`
+- **BNN.ipynb**: Implementation of a Bayesian network model (not a Bayesian Neural Network) for probabilistic inference.
+- **insurance.bif**: Bayesian Interchange Format file representing the network structure and probabilities.
 
-### 🔹 BNN (Bayesian Network using Chow-Liu Tree)
-- **Notebook**: `BNN.ipynb`
-- **File**: `insurance.bif`
-- **Summary**:  
-  Implements a Bayesian Network using the Chow-Liu algorithm on the insurance dataset. The notebook uses the `bnlearn` library to construct and visualize the DAG, compute dependencies, and evaluate probabilistic inference.
+### 2. `Banking Dataset - Marketing Targets/`
+- This folder contains supervised learning models built to predict the success of marketing campaigns using a banking dataset.
+- **Files:**
+  - `Banking Dataset - Marketing Targets.csv`: Full dataset.
+  - `Banking Dataset - Marketing Targets - Train.csv`, `Test.csv`: Train-test split for model evaluation.
+  - **Notebooks:**
+    - `DecisionTree.ipynb`: Applies Decision Tree classification.
+    - `KNN.ipynb`: Implements the K-Nearest Neighbors algorithm.
+    - `Logestic_Regression.ipynb`: Logistic Regression model.
+    - `SVM.ipynb`: Support Vector Machine classifier.
 
----
+### 3. `Clustering/`
+- Demonstrates unsupervised learning using clustering algorithms.
+- **Clustering.ipynb**: Applies K-Means (and potentially others) to customer segmentation.
+- **Customers.csv**: Input dataset used for clustering.
 
-### 🔹 Banking Dataset – Marketing Targets
-- **Data Files**:
-  - `Banking Dataset - Marketing Targets.csv` (full data)
-  - `Train` / `Test` splits available separately
-- **Notebooks**:
-  - `Logestic_Regression.ipynb`: Logistic Regression with imputation pipelines for missing data, model evaluation with ROC and confusion matrix.
-  - `DecisionTree.ipynb`: Decision Tree classifier with grid search and ROC/CM visualizations.
-  - `KNN.ipynb`: K-Nearest Neighbors classifier with hyperparameter tuning and performance analysis.
-  - `SVM.ipynb`: Support Vector Machine classifier with scaling, grid search, and model evaluation.
-- **Summary**:  
-  These notebooks aim to classify customer response to marketing using various classification models. Each notebook compares performance and explores feature preprocessing and tuning strategies.
-
----
-
-### 🔹 Clustering
-- **Notebook**: `Clustering.ipynb`
-- **Dataset**: `Customers.csv`
-- **Summary**:  
-  Applies clustering (likely K-Means or similar) to customer data to group clients based on spending behavior. Data preprocessing and visualization of clusters are included.
-
----
-
-## 🛠️ Technologies Used
+## 🛠 Technologies & Tools
 - Python 3.x
 - Jupyter Notebook
-- `scikit-learn`, `matplotlib`, `pandas`, `numpy`
-- `bnlearn` (for Bayesian Network)
+- scikit-learn
+- pandas, numpy, matplotlib, seaborn
+
+## 📊 Applications
+- Customer segmentation
+- Predictive marketing analytics
+- Probabilistic inference using Bayesian models
+
+## 📎 Notes
+- These projects are educational and exploratory in nature.
+- Ideal for those beginning in data mining and applied machine learning.
+
+## 📬 Contact
+For suggestions or questions, feel free to reach out via GitHub issues.
 
 ---
-
-## 📊 Datasets
-- **Insurance Dataset** (for BNN)
-- **Banking Dataset** (Marketing target classification)
-- **Customer Dataset** (Unsupervised clustering)
-
 
