@@ -48,20 +48,6 @@ This repository contains multiple machine learning projects exploring supervised
 - **Banking Dataset** (Marketing target classification)
 - **Customer Dataset** (Unsupervised clustering)
 
----
-
-## 📌 Getting Started
-
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/your-username/machine-learning-main.git
-   cd machine-learning-main
-   ```
-
-2. Install dependencies  
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 3. Launch notebooks  
    ```bash
