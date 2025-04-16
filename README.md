@@ -49,9 +49,3 @@ This repository contains multiple machine learning projects exploring supervised
 - **Customer Dataset** (Unsupervised clustering)
 
 
-3. Launch notebooks  
-   ```bash
-   jupyter notebook
-   ```
-
----
